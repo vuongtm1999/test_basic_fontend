@@ -204,7 +204,7 @@ body {
 }
 
 .slick-arrow {
-  top: 0px;
+  top: -10%;
   background-color: #277CFB;
   border-radius: 5px;
 }
@@ -222,16 +222,43 @@ body {
 }
 
 .image-item-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 16%;
   width: 14.5rem;
   height: 18rem;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 20px rgb(0 0 0 / 4%);
   margin: 5px 0px;
+  border-radius: 5%;
 }
 
+
+.image-item-wrapper img {
+  display: inline-block;
+}
+
+
 .learn-more-title {
+  font-weight: 500;
   margin-left: 5%;
   margin-top: 6%;
   margin-bottom: 3%;
 }
 
+.slick-dots{
+  list-style-type: none;
+}
+
+
+.see-more-button{
+  width: 80%;
+  height: 40px;
+  border: none;
+  background: #277CFB;
+  color: white;
+  font-size: 14px;
+  border-radius: 30px;
+  margin-top: 15%;
+}
