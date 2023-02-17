@@ -218,7 +218,7 @@ body {
 }
 
 .slick-initialized .slick-slide {
-  margin: 0 62px;
+  /* margin: 0 62px; */
 }
 
 .image-item-wrapper {
@@ -226,7 +226,7 @@ body {
   width: 14.5rem;
   height: 18rem;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  margin: 5px 0px;
+  margin: 5px 18px;
 }
 
 .learn-more-title {
