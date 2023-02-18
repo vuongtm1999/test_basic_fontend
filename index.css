@@ -89,6 +89,11 @@ body {
 
 .wrapper-video {
   padding: 50px 0px;
+  text-align: center;
+}
+
+.wrapper-video video{
+  width: min(93vw, 1120px);
 }
 
 .app_for_custo {
@@ -459,7 +464,7 @@ body {
 @media only all and (max-width: 478px) {
   .image-item-wrapper {
     min-width: 15rem;
-    width: 24.5rem;
+    width: 82vw;
   }
 
   .image-slider .slick-prev {
@@ -515,5 +520,17 @@ body {
 
   .header__menu-items {
     display: none;
+  }
+
+  .choose-us__items{
+    flex-direction: column;
+  }
+
+  .choose-us__items .choose-us__item{
+    margin-bottom: 1rem;
+  }
+
+  .app_for_custo__content--see-more{
+    margin-right: 0px;
   }
 }
