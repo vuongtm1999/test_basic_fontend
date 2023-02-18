@@ -26,7 +26,7 @@ body {
   margin: 0 !important;
 }
 
-.main-page{
+.main-page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -268,7 +268,6 @@ body {
   margin-top: 15%;
 }
 
-
 .top-business__item {
   margin: 0 10px;
   flex: 1;
@@ -294,7 +293,6 @@ body {
   padding: 3%;
   margin: 4px 8px;
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
-  
 }
 
 .two_iphone_img {
@@ -306,29 +304,29 @@ body {
   /* margin: unset; */
 }
 
-.choose-us__items .slick-prev{
+.choose-us__items .slick-prev {
   left: 0;
 }
 
-.choose-us__items .slick-arrow{
+.choose-us__items .slick-arrow {
   top: 50%;
   background-color: #00000024;
 }
 
-.business-feedback__items .slick-prev{
+.business-feedback__items .slick-prev {
   left: 0;
 }
 
-.business-feedback__items .slick-arrow{
+.business-feedback__items .slick-arrow {
   top: 50%;
   background-color: #00000024;
 }
 
-.top-business__items .slick-prev{
+.top-business__items .slick-prev {
   left: 0;
 }
 
-.top-business__items .slick-arrow{
+.top-business__items .slick-arrow {
   top: 50%;
   background-color: #00000024;
 }
@@ -375,7 +373,7 @@ body {
   background-color: white;
   position: absolute;
   bottom: 90%;
-  left: calc(50% - 70vw/2);
+  left: calc(50% - 70vw / 2);
 }
 
 .contact-us-your-mail {
@@ -444,48 +442,78 @@ body {
 }
 
 .info-page-brandname {
-  
 }
 
 .footer_licen {
   margin: 20px 0px;
 }
 
+.mobile-menu-btn {
+  color: white;
+  font-size: 24px;
+  padding: 12px;
+
+  display: none;
+}
+
 @media only all and (max-width: 478px) {
-  .image-item-wrapper{
+  .image-item-wrapper {
     min-width: 15rem;
     width: 24.5rem;
   }
 
-  
-  .image-slider .slick-prev{
+  .image-slider .slick-prev {
     left: 0;
   }
 
-  .image-slider .slick-arrow{
+  .image-slider .slick-arrow {
     top: 50%;
     background-color: #00000024;
   }
+
+  .header__icon {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .header__menu-items {
+    display: none;
+  }
 }
 
-@media only all and (max-width: 870px){
-  .two_iphone_img{
+@media only all and (max-width: 870px) {
+  .two_iphone_img {
     display: none;
   }
 
-  .app_for_bussiness__image{
+  .app_for_bussiness__image {
     display: none;
   }
 
-  .app_for_bussiness__content{
+  .app_for_bussiness__content {
     margin-right: 0px;
   }
 
-  .app_for_custo__image{
+  .app_for_custo__image {
     display: none;
   }
 
-  .app_for_custo__content{
+  .app_for_custo__content {
     margin-left: 0px;
+  }
+
+  .header__icon {
+    display: none;
+  }
+
+  .mobile-menu-btn {
+    display: block;
+  }
+
+  .header__menu-items {
+    display: none;
   }
 }
