@@ -53,12 +53,6 @@ $(document).ready(function () {
     slidesToScroll: 3,
     prevArrow: false,
     nextArrow: false,
-    // prevArrow: `<button type='button' class='slick-prev slick-arrow'>
-    //               <img src="./asset/img/Arrow - Left 2.png" alt="Arrow - Left 2" />
-    //             </button>`,
-    // nextArrow: `<button type='button' class='slick-next slick-arrow'>
-    //               <img src="./asset/img/Arrow - Right 2.png" alt="Arrow - Right 2" />
-    //             </button>`,
     responsive: [
       {
         breakpoint: 1024,
@@ -93,12 +87,8 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 3,
-    prevArrow: `<button type='button' class='slick-prev slick-arrow'>
-                  <img src="./asset/img/Arrow - Left 2.png" alt="Arrow - Left 2" />
-                </button>`,
-    nextArrow: `<button type='button' class='slick-next slick-arrow'>
-                  <img src="./asset/img/Arrow - Right 2.png" alt="Arrow - Right 2" />
-                </button>`,
+    prevArrow: false,
+    nextArrow: false,
     responsive: [
       {
         breakpoint: 1024,
@@ -133,12 +123,8 @@ $(document).ready(function () {
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 3,
-    prevArrow: `<button type='button' class='slick-prev slick-arrow'>
-                  <img src="./asset/img/Arrow - Left 2.png" alt="Arrow - Left 2" />
-                </button>`,
-    nextArrow: `<button type='button' class='slick-next slick-arrow'>
-                  <img src="./asset/img/Arrow - Right 2.png" alt="Arrow - Right 2" />
-                </button>`,
+    prevArrow: false,
+    nextArrow: false,
     responsive: [
       {
         breakpoint: 1024,
