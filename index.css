@@ -26,8 +26,20 @@ body {
   margin: 0 !important;
 }
 
+.main-page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .w-main {
   width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.w-1000 {
+  width: 1000px;
   max-width: 100%;
   margin: 0 auto;
 }
@@ -86,8 +98,6 @@ body {
 .app_for_custo__wrapper {
   display: flex;
   align-items: center;
-  padding-left: 6%;
-  padding-right: 6%;
 }
 
 .app_for_custo__content {
@@ -95,7 +105,7 @@ body {
 }
 
 .app_for_custo__content-title {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 35px;
 }
 
@@ -154,6 +164,7 @@ body {
 
 .title {
   text-align: center;
+  font-weight: 800;
 }
 
 .choose-us {
@@ -175,8 +186,6 @@ body {
 .choose-us__items {
   display: flex;
   justify-content: space-between;
-  margin: 0px 4%;
-
 }
 
 .choose-us__item {
@@ -200,12 +209,12 @@ body {
 
 .slick-disabled {
   color: white !important;
-  background-color: #E2E2E2 !important;
+  background-color: #e2e2e2 !important;
 }
 
 .slick-arrow {
   top: -10%;
-  background-color: #277CFB;
+  background-color: #277cfb;
   border-radius: 5px;
 }
 
@@ -216,9 +225,8 @@ body {
 
 .image-item {
 }
-
-.slick-initialized .slick-slide {
-  margin-left: 12p;
+.image-item-wrapper .slick-initialized .slick-slide {
+  /* margin-right: -10px; */
 }
 
 .image-item-wrapper {
@@ -226,39 +234,213 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 16%;
   width: 14.5rem;
   height: 18rem;
   box-shadow: 0px 0px 20px rgb(0 0 0 / 4%);
-  margin: 5px 0px;
   border-radius: 5%;
-}
 
+  margin: 12px 24px;
+}
 
 .image-item-wrapper img {
   display: inline-block;
 }
 
-
 .learn-more-title {
   font-weight: 500;
-  margin-left: 5%;
+  margin-left: 20px;
   margin-top: 6%;
   margin-bottom: 3%;
 }
 
-.slick-dots{
+.slick-dots {
   list-style-type: none;
 }
 
-
-.see-more-button{
+.see-more-button {
   width: 80%;
   height: 40px;
   border: none;
-  background: #277CFB;
+  background: #277cfb;
   color: white;
   font-size: 14px;
   border-radius: 30px;
   margin-top: 15%;
+}
+
+
+.top-business__item {
+  margin: 0 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.top-business {
+  margin-top: 8px;
+  margin-bottom: 5rem;
+}
+
+.business-feedback__items {
+  display: flex;
+  flex: 1;
+  margin-bottom: 5%;
+}
+
+.business-feedback__item {
+  padding: 3%;
+  margin: 4px 8px;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
+  
+}
+
+.two_iphone_img {
+  margin-right: 36px;
+  margin-left: -92px;
+}
+
+.app_for_custo__content--see-more.app_for_mange {
+  margin: unset;
+}
+
+.choose-us__items .slick-prev{
+  left: 0;
+}
+
+.choose-us__items .slick-arrow{
+  top: 50%;
+  background-color: #00000024;
+}
+
+.business-feedback__items .slick-prev{
+  left: 0;
+}
+
+.business-feedback__items .slick-arrow{
+  top: 50%;
+  background-color: #00000024;
+}
+
+.top-business__items .slick-prev{
+  left: 0;
+}
+
+.top-business__items .slick-arrow{
+  top: 50%;
+  background-color: #00000024;
+}
+
+.business-feedback__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+}
+
+.business-feedback__info--name {
+  margin-left: 6%;
+}
+
+.business-feedback__name {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.02em;
+  margin: 0;
+}
+
+.business-feedback__employee {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0.02em;
+}
+
+.business-feedback__content {
+  margin-top: 6%;
+  margin-bottom: 6%;
+}
+
+.contact-us{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.103);
+  border-radius: 10px;
+  max-width: 70vw;
+  min-height: 170px;
+  flex-wrap: wrap;
+}
+
+
+.contact-us-your-mail{
+  display: flex;
+  align-items: center;
+  padding: 0px 5%;
+  flex-wrap: wrap;
+}
+
+.contact-us-title{
+  padding-left: 5%;
+}
+.contact-us-sub-title{
+  color: #1212364D;
+  word-break: normal;
+  width: 70%;
+}
+.contact-us-mail-input{
+  display: block;
+  flex: 1;
+  height: 20px;
+  border: #c1bebe solid 1px;
+  border-radius: 5px 0px 0px 5px;
+  outline: none;
+  padding: 10px;
+}
+
+.contact-us-send-mail{
+  height: 41px;
+  flex: 0.4;
+  border: none;
+  width: 100px;
+  background-color: #277CFB;
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+}
+
+@media only all and (max-width: 478px) {
+  .image-item-wrapper{
+    min-width: 15rem;
+    width: 24.5rem;
+  }
+
+  
+  .image-slider .slick-prev{
+    left: 0;
+  }
+
+  .image-slider .slick-arrow{
+    top: 50%;
+    background-color: #00000024;
+  }
+}
+
+@media only all and (max-width: 870px){
+  .two_iphone_img{
+    display: none;
+  }
+
+  .app_for_bussiness__image{
+    display: none;
+  }
+
+  .app_for_bussiness__content{
+    margin-right: 0px;
+  }
+
+  .app_for_custo__image{
+    display: none;
+  }
+
+  .app_for_custo__content{
+    margin-left: 0px;
+  }
 }
