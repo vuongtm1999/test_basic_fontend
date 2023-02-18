@@ -290,11 +290,11 @@ body {
 
 .two_iphone_img {
   margin-right: 36px;
-  margin-left: -92px;
+  margin-left: -38px;
 }
 
 .app_for_custo__content--see-more.app_for_mange {
-  margin: unset;
+  /* margin: unset; */
 }
 
 .business-feedback__info {
@@ -327,7 +327,7 @@ body {
   margin-bottom: 6%;
 }
 
-.contact-us{
+.contact-us {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -338,23 +338,22 @@ body {
   flex-wrap: wrap;
 }
 
-
-.contact-us-your-mail{
+.contact-us-your-mail {
   display: flex;
   align-items: center;
   padding: 0px 5%;
   flex-wrap: wrap;
 }
 
-.contact-us-title{
+.contact-us-title {
   padding-left: 5%;
 }
-.contact-us-sub-title{
-  color: #1212364D;
+.contact-us-sub-title {
+  color: #1212364d;
   word-break: normal;
   width: 70%;
 }
-.contact-us-mail-input{
+.contact-us-mail-input {
   display: block;
   flex: 1;
   height: 20px;
@@ -364,12 +363,12 @@ body {
   padding: 10px;
 }
 
-.contact-us-send-mail{
+.contact-us-send-mail {
   height: 41px;
   flex: 0.4;
   border: none;
   width: 100px;
-  background-color: #277CFB;
+  background-color: #277cfb;
   color: white;
   border-radius: 0px 5px 5px 0px;
 }
