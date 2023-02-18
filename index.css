@@ -199,7 +199,7 @@ body {
   padding: 18px 0px;
   text-align: center;
   border-radius: 10px;
-  margin: 0 20px;
+  margin: 4px 20px;
 }
 
 .choose-us__item--icon {
@@ -435,10 +435,11 @@ body {
 
 .wrapper-info {
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   width: 70%;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 }
 
 .info-page__follow-us {
@@ -487,6 +488,14 @@ body {
   .header__menu-items {
     display: none;
   }
+
+  .wrapper-info-page {
+    width: 100vw;
+  }
+
+  /* .wrapper-info {
+    width: unset;
+  } */
 }
 
 @media only all and (max-width: 870px) {
@@ -533,4 +542,12 @@ body {
   .app_for_custo__content--see-more{
     margin-right: 0px;
   }
+
+  .wrapper-info-page {
+    width: 100vw;
+  }
+
+  /* .wrapper-info {
+    width: unset;
+  } */
 }
