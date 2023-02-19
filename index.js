@@ -1,3 +1,13 @@
+function openNav() {
+  document.getElementById("mySidenav").style.width = "90%";
+  document.getElementById("mySidenav").style.zIndex = "99";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+
+
 $(document).ready(function () {
   $(".image-slider").slick({
     dots: true,
@@ -152,4 +162,7 @@ $(document).ready(function () {
       }
     ]
   })
+
+
 });
+

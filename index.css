@@ -497,7 +497,54 @@ body {
   margin: 7% 0px;
 }
 
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  color: black;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  margin-left: 50px;
+  color: white;
+  font-size: 4rem;
+}
+
+a.menu__header {
+  padding-top: 18px;
+  padding-bottom: 18px;
+  background-color: #277CFB;
+  color: white;
+  font-weight: 700;
+  font-size: 1.5rem !important;
+  line-height: 41px;
+}
+
 @media only all and (max-width: 478px) {
+  .sidenav a {font-size: 18px;}
+
   .image-item-wrapper {
     min-width: 15rem;
     width: 82vw;
@@ -591,6 +638,8 @@ body {
 }
 
 @media only all and (max-width: 870px) {
+  .sidenav a {font-size: 18px;}
+
   .two_iphone_img {
     display: none;
   }
@@ -680,7 +729,7 @@ body {
   .app_for_bussiness__image {
     text-align: center;
   }
-  
+
   .app_for_custo__content--see-more.app_for_mange {
     margin: unset;
   }
