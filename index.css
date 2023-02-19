@@ -177,6 +177,7 @@ body {
 .title {
   text-align: center;
   font-weight: 800;
+  font-size: 35px;
 }
 
 .choose-us {
@@ -620,6 +621,11 @@ a.menu__header {
     max-width: 90%;
   }
 
+  .two_iphone_img {
+    max-width: 90%;
+    margin: unset;
+  }
+
   .app_for_custo__content-title {
     text-align: center;
   }
@@ -639,10 +645,6 @@ a.menu__header {
 
 @media only all and (max-width: 870px) {
   .sidenav a {font-size: 18px;}
-
-  .two_iphone_img {
-    display: none;
-  }
 
   /* .app_for_bussiness__image {
     display: none;
@@ -720,6 +722,11 @@ a.menu__header {
 
   .two_iphone {
     max-width: 90%;
+  }
+
+  .two_iphone_img {
+    max-width: 90%;
+    margin: unset;
   }
 
   .app_for_custo__content-title {
