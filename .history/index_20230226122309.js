@@ -22,9 +22,8 @@ $(document).ready(function () {
       document.querySelector(".features-item-4 .features-item-descript__below").innerHTML = "You will feel secure when you see the report image and easily evaluate quality service whenever";
     }
   }
-
-  // var x = window.matchMedia("(max-width: 870px) and (min-width: 400px)")
-  var x = window.matchMedia("(max-width: 870px)")
+  
+  var x = window.matchMedia("(max-width: 870px) && (min-height:500px)")
   myFunction(x) // Call listener function at run time
   x.addListener(myFunction) // Attach listener function on state changes
 
