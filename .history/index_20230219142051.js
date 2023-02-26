@@ -8,25 +8,7 @@ function closeNav() {
 }
 
 
-
-
 $(document).ready(function () {
-  function myFunction(x) {
-    if (x.matches) { // If media query matches
-      document.querySelector(".features-item-2 .features-item-descript__below").innerText = "Not only chat now you can voice chat and make calls to quickly connect with the performer";
-      document.querySelector(".features-item-3 .features-item-descript__below").innerText = "You can know the status of repair or work completed while away from home.";
-      document.querySelector(".features-item-4 .features-item-descript__below").innerText = "You will feel secure when you see the report image and easily evaluate quality service whenever";
-    } else {
-      document.querySelector(".features-item-2 .features-item-descript__below").innerHTML = "Not only chat now you can voice chat and make calls <br> to quickly connect with the performer";
-      document.querySelector(".features-item-3 .features-item-descript__below").innerHTML = "You can know the status of repair or work completed<br> while away from home.";
-      document.querySelector(".features-item-4 .features-item-descript__below").innerHTML = "You will feel secure when you see the report image and easily evaluate quality service whenever";
-    }
-  }
-  
-  var x = window.matchMedia("(max-width: 870px)")
-  myFunction(x) // Call listener function at run time
-  x.addListener(myFunction) // Attach listener function on state changes
-
   $(".image-slider").slick({
     dots: true,
     infinite: false,

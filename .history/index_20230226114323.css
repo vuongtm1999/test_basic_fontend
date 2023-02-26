@@ -549,7 +549,7 @@ a.menu__header {
   line-height: 41px;
 }
 
-.dflex {
+.features-item-1 {
   display: flex;
 }
 
@@ -567,7 +567,7 @@ a.menu__header {
 }
 
 .features-item__arrow {
-  margin-left: 2%;
+  margin-left: 7%;
   margin-top: 7%;
 }
 
@@ -591,7 +591,6 @@ a.menu__header {
 
 .features-item-img-iphone-12 {
   margin-left: 9%;
-  height: 550px;
 }
 
 .features-item-1 {
@@ -600,19 +599,6 @@ a.menu__header {
 
 .features-item-list-wrapper {
   flex: 1;
-}
-
-.features-item__arrow {
-  width: 100%;
-}
-
-.features-item__number.active {
-  color: white;
-  background-color: #277CFB;
-}
-
-.features-item-descript.active .features-item-descript__header {
-  color: #277CFB;
 }
 
 
@@ -714,23 +700,6 @@ a.menu__header {
 
   .choose-us__wrapper-description {
     display: block;
-  }
-
-  .features-item-img-iphone-12 {
-    margin-left: unset;
-  }
-
-  .wrapper_features_items {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .features-item-list {
-    margin-left: unset
-  }
-
-  .features-item-descript__below {
-    text-align: justify;
   }
 }
 
@@ -836,22 +805,5 @@ a.menu__header {
 
   .choose-us__wrapper-description {
     display: block;
-  }
-
-  .features-item-img-iphone-12 {
-    margin-left: unset;
-  }
-
-  .wrapper_features_items {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .features-item-list {
-    margin-left: unset
-  }
-
-  .features-item-descript__below {
-    text-align: justify;
   }
 }
