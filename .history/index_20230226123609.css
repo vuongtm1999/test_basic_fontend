@@ -567,6 +567,7 @@ a.menu__header {
 }
 
 .features-item__arrow {
+  margin-left: 2%;
   margin-top: 7%;
 }
 
@@ -735,10 +736,6 @@ a.menu__header {
   .features-item-descript__below {
     text-align: justify;
   }
-
-  .choose-us__wrapper-description {
-    padding: 0 16px;
-  }
 }
 
 @media only all and (max-width: 870px) {
@@ -860,9 +857,5 @@ a.menu__header {
 
   .features-item-descript__below {
     text-align: justify;
-  }
-
-  .choose-us__wrapper-description {
-    padding: 0 16px;
   }
 }
