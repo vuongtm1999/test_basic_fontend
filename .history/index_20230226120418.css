@@ -549,6 +549,9 @@ a.menu__header {
   line-height: 41px;
 }
 
+.features-item-1 {
+}
+
 .dflex {
   display: flex;
 }
@@ -728,10 +731,6 @@ a.menu__header {
   .features-item-list {
     margin-left: unset
   }
-
-  .features-item-descript__below {
-    text-align: justify;
-  }
 }
 
 @media only all and (max-width: 870px) {
@@ -849,9 +848,5 @@ a.menu__header {
 
   .features-item-list {
     margin-left: unset
-  }
-
-  .features-item-descript__below {
-    text-align: justify;
   }
 }

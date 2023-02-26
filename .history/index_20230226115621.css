@@ -549,7 +549,7 @@ a.menu__header {
   line-height: 41px;
 }
 
-.dflex {
+.features-item-1 {
   display: flex;
 }
 
@@ -716,21 +716,10 @@ a.menu__header {
     display: block;
   }
 
-  .features-item-img-iphone-12 {
-    margin-left: unset;
-  }
-
   .wrapper_features_items {
     flex-direction: column;
     align-items: center;
-  }
-
-  .features-item-list {
-    margin-left: unset
-  }
-
-  .features-item-descript__below {
-    text-align: justify;
+    margin-left: unset;
   }
 }
 
@@ -838,20 +827,9 @@ a.menu__header {
     display: block;
   }
 
-  .features-item-img-iphone-12 {
-    margin-left: unset;
-  }
-
   .wrapper_features_items {
     flex-direction: column;
     align-items: center;
-  }
-
-  .features-item-list {
-    margin-left: unset
-  }
-
-  .features-item-descript__below {
-    text-align: justify;
+    margin-left: unset;
   }
 }

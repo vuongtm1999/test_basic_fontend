@@ -9,10 +9,6 @@
     --header-sort-bar-height: 46px; */
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   padding: 0px;
 }
@@ -155,7 +151,7 @@ body {
 
 .wrapper_features_items {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: center;
   margin-bottom: 5%;
 }
@@ -549,7 +545,7 @@ a.menu__header {
   line-height: 41px;
 }
 
-.dflex {
+.features-item-1 {
   display: flex;
 }
 
@@ -567,18 +563,18 @@ a.menu__header {
 }
 
 .features-item__arrow {
-  margin-left: 2%;
+  margin-left: 7%;
   margin-top: 7%;
 }
 
 .features-item-descript {
   margin-left: 5%;
+  margin-top: 2%;
 }
 
 .features-item-descript__header {
-  font-weight: 600;
+  font-weight: 550;
   font-size: 20px;
-  letter-spacing: 0.02em;
 }
 
 .features-item-descript__below {
@@ -586,35 +582,7 @@ a.menu__header {
   font-size: 18px;
   line-height: 25px;
   letter-spacing: 0.02em;
-  color: #666666;
 }
-
-.features-item-img-iphone-12 {
-  margin-left: 9%;
-  height: 550px;
-}
-
-.features-item-1 {
-  margin-top: 1%;
-}
-
-.features-item-list-wrapper {
-  flex: 1;
-}
-
-.features-item__arrow {
-  width: 100%;
-}
-
-.features-item__number.active {
-  color: white;
-  background-color: #277CFB;
-}
-
-.features-item-descript.active .features-item-descript__header {
-  color: #277CFB;
-}
-
 
 @media only all and (max-width: 478px) {
   .sidenav a {
@@ -714,23 +682,6 @@ a.menu__header {
 
   .choose-us__wrapper-description {
     display: block;
-  }
-
-  .features-item-img-iphone-12 {
-    margin-left: unset;
-  }
-
-  .wrapper_features_items {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .features-item-list {
-    margin-left: unset
-  }
-
-  .features-item-descript__below {
-    text-align: justify;
   }
 }
 
@@ -836,22 +787,5 @@ a.menu__header {
 
   .choose-us__wrapper-description {
     display: block;
-  }
-
-  .features-item-img-iphone-12 {
-    margin-left: unset;
-  }
-
-  .wrapper_features_items {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .features-item-list {
-    margin-left: unset
-  }
-
-  .features-item-descript__below {
-    text-align: justify;
   }
 }
